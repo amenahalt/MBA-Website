@@ -1,0 +1,59 @@
+---
+title: "Operations Experience"
+listing:
+  contents: listings
+  type: grid
+  categories: true
+  sort:
+    - "index desc"
+---
+
+These case studies illustrate my hands-on leadership in operational settings—guiding clients through diving courses and optimizing a family-run transportation service. Each project underscores my commitment to safety, efficiency, and exceptional customer experiences.
+
+## Performance Metrics
+
+```{r save-operations-metrics, echo=FALSE, message=FALSE}
+# Generate and save operations metrics chart
+library(ggplot2)
+df <- data.frame(
+  Metric = factor(
+    c("Monthly Class Enrollment", "Course Completion Rate (%)", 
+      "On-Time Service Reliability (%)", "Monthly Scheduling Conflicts"),
+    levels = c("Monthly Class Enrollment", "Course Completion Rate (%)", 
+               "On-Time Service Reliability (%)", "Monthly Scheduling Conflicts")
+  ),
+  Baseline = c(20, 80, 75, 15),
+  Improved = c(26, 95, 94, 9)
+)
+
+p <- ggplot(df, aes(x = Metric)) +
+  geom_col(aes(y = Baseline), position = position_nudge(x = -0.2), width = 0.4) +
+  geom_col(aes(y = Improved), position = position_nudge(x = 0.2), width = 0.4) +
+  labs(x = NULL, y = "Value") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Ensure images directory exists and save plot
+if (!dir.exists("images")) dir.create("images")
+ggsave("images/operations_metrics.png", plot = p, width = 8, height = 4, dpi = 300)
+```
+
+| Metric                          | Baseline | Improved |
+| ------------------------------- | -------: | -------: |
+| Monthly Class Enrollment        |       20 |       26 |
+| Course Completion Rate (%)      |       80 |       95 |
+| On-Time Service Reliability (%) |       75 |       94 |
+| Monthly Scheduling Conflicts    |       15 |        9 |
+
+![](images/operations_metrics.png){width="80%"}
+
+## Case Studies
+
+### Diving Instruction Program  
+Leading instruction at a premier diving center in Kuwait, I crafted a progressive training curriculum combining theoretical briefings with practical pool and open-water sessions. By standardizing daily safety checks and mentor-led skill assessments, I increased class enrollment by 30% and achieved a 95% course completion rate—boosting client retention and word-of-mouth referrals.
+
+### Transportation Operations Transformation  
+As Operations Manager for my family’s transportation business, I spearheaded a cross-functional revamp of scheduling and dispatch workflows. I introduced real-time tracking, customer feedback surveys, and a performance dashboard to monitor key metrics. These improvements drove a 25% increase in on-time service reliability, reduced scheduling conflicts by 40%, and enhanced overall customer satisfaction ratings.
+
+### Continuous Improvement & Stakeholder Engagement  
+Beyond day-to-day operations, I facilitated regular stakeholder reviews—presenting data-driven insights, gathering frontline feedback, and implementing iterative enhancements. My collaboration with drivers, clients, and management teams fostered a culture of continuous improvement that sustained long-term operational excellence.

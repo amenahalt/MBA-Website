@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Amenah Altamimi"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Operations Experience"
+        href: Operations-Experience.qmd
+      - text: "Strategic Marketing"
+        href: Strategic-Marketing.qmd
+      - text: "Résumé"
+        href: Résumé.qmd
+
+
+format:
+  html:
+    css: css/styles.css
+    toc: true
+    toc-location: left
+    metadata:
+      description: "Portfolio of Amenah Altamimi – showcasing operations leadership and strategic marketing expertise"
+      keywords: [operations, diving, transportation, marketing, strategic, analytics]
