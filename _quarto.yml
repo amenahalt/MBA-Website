@@ -15,12 +15,13 @@ website:
       - text: "Résumé"
         href: Résumé.qmd
 
-
 format:
   html:
+    scroll: smooth
     css: css/styles.css
     toc: true
     toc-location: left
     metadata:
       description: "Portfolio of Amenah Altamimi – showcasing operations leadership and strategic marketing expertise"
       keywords: [operations, diving, transportation, marketing, strategic, analytics]
+
