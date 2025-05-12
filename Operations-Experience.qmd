@@ -1,14 +1,8 @@
 ---
 title: "Operations Experience"
-listing:
-  contents: listings
-  type: grid
-  categories: true
-  sort:
-    - "index desc"
 ---
 
-These case studies illustrate my hands-on leadership in operational settings—guiding clients through diving courses and optimizing a family-run transportation service. Each project underscores my commitment to safety, efficiency, and exceptional customer experiences.
+This page demonstrates my operational leadership in diving instruction and transportation management.
 
 ## Performance Metrics
 
@@ -46,7 +40,6 @@ ggsave("images/operations_metrics.png", plot = p, width = 8, height = 4, dpi = 3
 | Monthly Scheduling Conflicts    |       15 |        9 |
 
 ![](images/operations_metrics.png){width="80%"}
-
 
 ## Case Studies
 
