@@ -1,29 +1,33 @@
 ---
 title: "Hi, I'm Amenah Altamimi"
 ---
+This page introduces my background in business management and global trade.
 
 ::: {.columns}
+
+::::: columns
 ::: {.column width="30%"}
 ![](headshot.jpg){width="100%" style="border-radius: 50%;"}
 :::
+
 ::: {.column width="70%" style="padding-left: 3rem;"}
-I'm a **Business Managment & Global trade Professional**.  
+I'm a **Business Managment & Global trade Professional**.\
 I specialize in transforming complex information into clear, engaging, and actionable insights.
 :::
-:::
+:::::
 
 ## About Me
 
 I hold a **Master of Business Administration** and a **Bachelor of Arts in International Business** with a minor in **Global Trading** from **California State University, Fullerton**.
 
-**Skills & Strengths:**  
-- Teamwork & Collaboration  
-- Management & Leadership  
+**Skills & Strengths:**\
+- Teamwork & Collaboration\
+- Management & Leadership
 
 ## Let's Connect
 
 You can [email me](mailto:amenalt@icloud.com) or connect on [LinkedIn](https://www.linkedin.com/in/amenah-altamimi).
 
----
+------------------------------------------------------------------------
 
 *Welcome to my portfolio.*

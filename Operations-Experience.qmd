@@ -47,6 +47,7 @@ ggsave("images/operations_metrics.png", plot = p, width = 8, height = 4, dpi = 3
 
 ![](images/operations_metrics.png){width="80%"}
 
+
 ## Case Studies
 
 ### Diving Instruction Program  
